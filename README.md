@@ -1,4 +1,5 @@
 # Simple Document Processing MCP Server
+[![smithery badge](https://smithery.ai/badge/@cablate/mcp-doc-forge)](https://smithery.ai/server/@cablate/mcp-doc-forge)
 
 A powerful Model Context Protocol (MCP) server providing comprehensive document processing capabilities.
 
@@ -25,6 +26,15 @@ A powerful Model Context Protocol (MCP) server providing comprehensive document 
 
 ## Installation
 
+### Installing via Smithery
+
+To install Document Processing Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@cablate/mcp-doc-forge):
+
+```bash
+npx -y @smithery/cli install @cablate/mcp-doc-forge --client claude
+```
+
+### Manual Installation
 ```bash
 npm install -g @cablate/mcp-doc-forge
 ```
