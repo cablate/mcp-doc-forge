@@ -1,0 +1,84 @@
+# Simple Document Processing MCP Server
+
+A powerful Model Context Protocol (MCP) server providing comprehensive document processing capabilities.
+
+## Features
+
+### Document Reader
+- Read DOCX, PDF, TXT, HTML, CSV
+
+### Document Conversion
+- DOCX to HTML/PDF conversion
+- HTML to TXT/Markdown conversion
+- PDF manipulation (merge, split)
+
+### Text Processing
+- Multi-encoding transfer support (UTF-8, Big5, GBK)
+- Text formatting and cleaning
+- Text comparison and diff generation
+- Text splitting by lines or delimiter
+
+### HTML Processing
+- HTML cleaning and formatting
+- Resource extraction (images, links, videos)
+- Structure-preserving conversion
+
+## Installation
+
+```bash
+npm install -g @cablate/mcp-doc-forge
+```
+
+
+## Usage
+
+### Cli
+
+```bash
+mcp-doc-forge
+```
+
+### With [Dive Desktop](https://github.com/OpenAgentPlatform/Dive)
+
+1. Click "+ Add MCP Server" in Dive Desktop
+2. Copy and paste this configuration:
+
+```json
+{
+  "mcpServers": {
+    "searxng": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@cablate/mcp-doc-forge"
+      ],
+      "enabled": true
+    }
+  }
+}
+```
+
+3. Click "Save" to install the MCP server
+
+## License
+
+MIT
+
+## Contributing
+
+Welcome community participation and contributions! Here are ways to contribute:
+
+- ⭐️ Star the project if you find it helpful
+- 🐛 Submit Issues: Report problems or provide suggestions
+- 🔧 Create Pull Requests: Submit code improvements
+
+## Contact
+
+If you have any questions or suggestions, feel free to reach out:
+
+- 📧 Email: [reahtuoo310109@gmail.com](mailto:reahtuoo310109@gmail.com)
+- 🤝 Collaboration: Welcome to discuss project cooperation
+- 📚 Technical Guidance: Sincere welcome for suggestions and guidance
+
+
+
