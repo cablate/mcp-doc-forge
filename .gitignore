@@ -1,2 +1,5 @@
 dist/*
 node_modules/*
+CodeReview.md
+todo.md
+develop-prompt-plan.md
