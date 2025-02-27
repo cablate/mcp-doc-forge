@@ -3,6 +3,8 @@
 
 A powerful Model Context Protocol (MCP) server providing comprehensive document processing capabilities.
 
+<a href="https://glama.ai/mcp/servers/pb9df6lnel"><img width="380" height="200" src="https://glama.ai/mcp/servers/pb9df6lnel/badge" alt="Simple Document Processing Server MCP server" /></a>
+
 ## Features
 
 ### Document Reader
