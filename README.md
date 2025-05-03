@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/cablate-mcp-doc-forge-badge.png)](https://mseep.ai/app/cablate-mcp-doc-forge)
+
 # Simple Document Processing MCP Server
 [![smithery badge](https://smithery.ai/badge/@cablate/mcp-doc-forge)](https://smithery.ai/server/@cablate/mcp-doc-forge)
 
