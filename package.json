@@ -1,12 +1,12 @@
 {
   "name": "@cablate/mcp-doc-forge",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "type": "module",
   "description": "MCP server that provides doc forge capabilities",
   "main": "dist/index.cjs",
   "license": "MIT",
   "scripts": {
-    "build": "esbuild src/index.ts --bundle --platform=node --outfile=dist/index.cjs && shx cp src/xhr-sync-worker.js dist/ && shx chmod +x dist/index.cjs",
+    "build": "esbuild src/index.ts --bundle --platform=node --outfile=dist/index.cjs --external:jsdom && shx chmod +x dist/index.cjs",
     "start": "node dist/index.cjs",
     "dev": "ts-node src/index.ts"
   },
