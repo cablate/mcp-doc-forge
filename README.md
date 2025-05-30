@@ -1,7 +1,11 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/cablate-mcp-doc-forge-badge.png)](https://mseep.ai/app/cablate-mcp-doc-forge)
+
 # Simple Document Processing MCP Server
 [![smithery badge](https://smithery.ai/badge/@cablate/mcp-doc-forge)](https://smithery.ai/server/@cablate/mcp-doc-forge)
 
 A powerful Model Context Protocol (MCP) server providing comprehensive document processing capabilities.
+
+<a href="https://glama.ai/mcp/servers/pb9df6lnel"><img width="380" height="200" src="https://glama.ai/mcp/servers/pb9df6lnel/badge" alt="Simple Document Processing Server MCP server" /></a>
 
 ## Features
 
